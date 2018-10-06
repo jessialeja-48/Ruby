@@ -1,0 +1,53 @@
+irb(main):011:0> clase= 25
+=> 25
+irb(main):012:0> curso=205
+=> 205
+irb(main):013:0> puts= clase+curso
+=> 230
+irb(main):014:0> puts= clase
+=> 25
+irb(main):018:0> puts 12+12
+24
+=> nil
+irb(main):019:0> '12'+'12'
+=> "1212"
+irb(main):020:0> puts '12+12'
+12+12
+=> nil
+irb(main):021:0> name= 'clase fedesoft'
+=> "clase fedesoft"
+irb(main):021:0> name= 'clase fedesoft'
+=> "clase fedesoft"
+irb(main):022:0> puts 'me llamo' + name
+me llamoclase fedesoft
+=> nil
+irb(main):023:0> puts 'me llamo ' + name
+me llamo clase fedesoft
+=> nil
+irb(main):024:0> 5*(1+12)
+=> 65
+irb(main):025:0> var= 5*(1+2)
+=> 15
+irb(main):026:0> puts= var
+=> 15
+irb(main):027:0>
+
+irb(main):029:0> name = 'jessica'
+=> "jessica"
+irb(main):030:0> años = 23
+=> 23
+irb(main):036:0> puts 'name' + 'años'
+nameaños
+=> nil
+irb(main):037:0> puts '23' + name
+23jessica
+=> nil
+irb(main):038:0> puts '23 ' + name
+23 jessica
+=> nil
+ArgumentError (wrong number of arguments (given 4, expected 1))
+irb(main):044:0> clase = ['mañana','tarde','profesor','martes']
+=> ["ma\xA4ana", "tarde", "profesor", "martes"]
+irb(main):051:0> puts clase [3]
+martes
+=> nil
